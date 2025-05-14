@@ -1,0 +1,15 @@
+<svg viewBox="0 0 200 150" xmlns="http://www.w3.org/2000/svg">
+    <!-- Sofa Legs -->
+    <rect class="sofa-leg" x="25" y="120" width="20" height="10" rx="2" />
+    <rect class="sofa-leg" x="155" y="120" width="20" height="10" rx="2" />
+
+    <!-- Sofa Backrest -->
+    <rect class="sofa-backrest" x="25" y="20" width="150" height="50" rx="10" />
+
+    <!-- Sofa Seat -->
+    <rect class="sofa-seat" x="25" y="70" width="150" height="50" rx="5" />
+
+    <!-- Sofa Armrests -->
+    <rect class="sofa-armrest" x="10" y="70" width="20" height="50" rx="5" />
+    <rect class="sofa-armrest" x="170" y="70" width="20" height="50" rx="5" />
+  </svg>

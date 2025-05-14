@@ -1,0 +1,11 @@
+<svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="tabler-icon-school">
+<path id="Vector" d="M22 9.5L12 5.5L2 9.5L12 13.5L22 9.5ZM22 9.5V15.5M6 11.1V16.5C6 17.2957 6.63214 18.0587 7.75736 18.6213C8.88258 19.1839 10.4087 19.5 12 19.5C13.5913 19.5 15.1174 19.1839 16.2426 18.6213C17.3679 18.0587 18 17.2957 18 16.5V11.1" stroke="url(#paint0_linear_1235_3997)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear_1235_3997" x1="2" y1="12.5" x2="22" y2="12.5" gradientUnits="userSpaceOnUse">
+<stop stop-color="#F7C215"/>
+<stop offset="1" stop-color="#91720C"/>
+</linearGradient>
+</defs>
+</svg>
