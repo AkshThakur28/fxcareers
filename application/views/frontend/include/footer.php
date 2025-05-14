@@ -4,10 +4,10 @@
 
     Tawk_API.onLoad = function () {
         if (window.innerWidth <= 768) {
-            Tawk_API.hideWidget(); // Hide chat widget on mobile
+            Tawk_API.hideWidget(); 
         } else {
-            Tawk_API.showWidget(); // Show chat widget on desktop
-            Tawk_API.maximize();   // Auto-open chat on desktop
+            Tawk_API.showWidget(); 
+            Tawk_API.maximize();   
         }
     };
 
@@ -22,7 +22,6 @@
     })();
 </script>
 
-<!-- Custom Styling for Tawk.to Widget -->
 <script type="text/javascript">
     function styleTawkWidget() {
         const iframe = document.querySelector("iframe[src*='tawk.to']");
