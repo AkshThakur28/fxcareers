@@ -10247,3 +10247,47 @@ INFO - 2025-05-14 09:36:23 --> File loaded: C:\xampp\htdocs\fxcareers.ae\applica
 INFO - 2025-05-14 09:36:23 --> File loaded: C:\xampp\htdocs\fxcareers.ae\application\views\frontend/include/footer.php
 INFO - 2025-05-14 09:36:23 --> Final output sent to browser
 DEBUG - 2025-05-14 09:36:23 --> Total execution time: 0.2355
+INFO - 2025-05-14 12:44:15 --> Config Class Initialized
+INFO - 2025-05-14 12:44:15 --> Hooks Class Initialized
+DEBUG - 2025-05-14 12:44:15 --> UTF-8 Support Enabled
+INFO - 2025-05-14 12:44:15 --> Utf8 Class Initialized
+INFO - 2025-05-14 12:44:15 --> URI Class Initialized
+DEBUG - 2025-05-14 12:44:16 --> No URI present. Default controller set.
+INFO - 2025-05-14 12:44:16 --> Router Class Initialized
+INFO - 2025-05-14 12:44:16 --> Output Class Initialized
+INFO - 2025-05-14 12:44:16 --> Security Class Initialized
+DEBUG - 2025-05-14 12:44:16 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-05-14 12:44:16 --> Input Class Initialized
+INFO - 2025-05-14 12:44:16 --> Language Class Initialized
+INFO - 2025-05-14 12:44:16 --> Loader Class Initialized
+INFO - 2025-05-14 12:44:16 --> Helper loaded: url_helper
+INFO - 2025-05-14 12:44:16 --> Helper loaded: file_helper
+INFO - 2025-05-14 12:44:16 --> Helper loaded: security_helper
+INFO - 2025-05-14 12:44:16 --> Database Driver Class Initialized
+INFO - 2025-05-14 12:44:16 --> Email Class Initialized
+DEBUG - 2025-05-14 12:44:16 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2025-05-14 12:44:16 --> Session: Class initialized using 'files' driver.
+INFO - 2025-05-14 12:44:16 --> Helper loaded: form_helper
+INFO - 2025-05-14 12:44:16 --> Form Validation Class Initialized
+INFO - 2025-05-14 12:44:16 --> Model "User_model" initialized
+INFO - 2025-05-14 12:44:16 --> Controller Class Initialized
+INFO - 2025-05-14 12:44:16 --> Model "Auth_model" initialized
+INFO - 2025-05-14 12:44:16 --> Model "Gallery_model" initialized
+INFO - 2025-05-14 12:44:16 --> Model "detail_model" initialized
+INFO - 2025-05-14 12:44:16 --> Model "Curriculum_model" initialized
+INFO - 2025-05-14 12:44:16 --> Model "Topic_model" initialized
+INFO - 2025-05-14 12:44:16 --> Model "Ebook_model" initialized
+INFO - 2025-05-14 12:44:16 --> Model "Mentors_model" initialized
+INFO - 2025-05-14 12:44:16 --> Model "Form_model" initialized
+INFO - 2025-05-14 12:44:16 --> Model "One_to_one_session_model" initialized
+INFO - 2025-05-14 12:44:16 --> Model "Seo_model" initialized
+INFO - 2025-05-14 12:44:16 --> Model "Blog_model" initialized
+INFO - 2025-05-14 12:44:16 --> Model "Questions_model" initialized
+INFO - 2025-05-14 12:44:16 --> Model "Career_detail_model" initialized
+INFO - 2025-05-14 12:44:16 --> Model "Career_model" initialized
+DEBUG - 2025-05-14 12:44:16 --> Session class already loaded. Second attempt ignored.
+INFO - 2025-05-14 12:44:16 --> File loaded: C:\xampp\htdocs\fxcareers.ae\application\views\frontend/include/header.php
+INFO - 2025-05-14 12:44:16 --> File loaded: C:\xampp\htdocs\fxcareers.ae\application\views\frontend/index.php
+INFO - 2025-05-14 12:44:16 --> File loaded: C:\xampp\htdocs\fxcareers.ae\application\views\frontend/include/footer.php
+INFO - 2025-05-14 12:44:16 --> Final output sent to browser
+DEBUG - 2025-05-14 12:44:16 --> Total execution time: 0.5661

@@ -207,7 +207,7 @@ if ($seo_data) {
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" />
     <link rel="stylesheet" href="<?= base_url() ?>public/assets/css/animate/animate.min.css">
     <link rel="stylesheet" href="<?= base_url() ?>public/assets/css/odometer/odometer.min.css">
-    
+
     <link rel="stylesheet" href="<?= base_url() ?>public/assets/fonts/remixicon.css">
     <link rel="stylesheet" href="<?= base_url() ?>public/assets/css/style.css">
     <link rel="stylesheet" href="<?= base_url() ?>public/assets/css/landingpage.css">
@@ -262,8 +262,8 @@ if ($seo_data) {
                         <div class="d-flex justify-content-between align-items-center">
                             <div class="logo">
                                 <a href="<?= base_url() ?>" class="p-0">
-                                    <img id="logo" src="<?= base_url() ?>public/assets/img/fxcareers-logo-white.svg" width="120"
-                                        alt="">
+                                    <img id="logo" src="<?= base_url() ?>public/assets/img/fxcareers-logo-white.svg"
+                                        width="120" alt="">
                                 </a>
                             </div>
                             <div class="language_and_toggle d-flex align-items-center d-lg-none d-block">
@@ -335,7 +335,7 @@ if ($seo_data) {
                                 <li class="dropdown"> <a class="d-flex nav_color  align-items-center more_hover"> More
                                         <span class="more_nav_arrow ms-1"><i
                                                 class="ri-arrow-right-up-line fw-bold "></i></span></a>
-                                    <div class="desktop_dropdown   ">
+                                    <div class="desktop_dropdown">
                                         <div class="d-flex">
                                             <ul class="list-inline bg-transparent">
                                                 <h6>Company</h6>
@@ -440,8 +440,8 @@ if ($seo_data) {
         </nav>
 
     </header>
-    <div class="offcanvas bg-white offcanvas-start d-lg-none d-block h-100" style="z-index: 10000000;     overflow-y: scroll;" id="offcanvasNavbar"
-        aria-labelledby="offcanvasNavbarLabel">
+    <div class="offcanvas bg-white offcanvas-start d-lg-none d-block h-100"
+        style="z-index: 10000000;     overflow-y: scroll;" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
         <div class="offcanvas-header">
             <div class="offcanvas-title" id="offcanvasNavbarLabel">
                 <div class="logo">
@@ -467,80 +467,66 @@ if ($seo_data) {
                     <li class="mt-3 more_hover" onclick="toggleHeight()">
                         <span class="d-flex"> More <span class="more_nav_arrow ms-1"><i
                                     class="ri-arrow-right-up-line fw-bold "></i></span></span>
-                        <div class="mobile_dropdown px-3" id="mobileDropdown"
-                            style="height: 0px;overflow: hidden  ;">
-                            
-                                <div class="row">
-                                    <div class="col-6 ">
-                                        <h5 class="mt-3">Company</h5>
-                                        <span class="d-flex align-items-center"><i
-                                                class="ri-arrow-right-double-fill"></i> <a
-                                                href="<?= base_url("mentor") ?>">Mentors</a></span>
-                                        <span class="d-flex align-items-center"><i
-                                                class="ri-arrow-right-double-fill"></i> <a
-                                                href="<?= base_url("gallery") ?>">Gallery</a></span>
-                                        <span class="d-flex align-items-center"><i
-                                                class="ri-arrow-right-double-fill"></i><a
-                                                href="<?= base_url("contact") ?>"> Contact
-                                                Us</a></span>
-                                        <span class="d-flex align-items-center"><i
-                                                class="ri-arrow-right-double-fill"></i><a
-                                                href="<?= base_url("careers") ?>">
-                                                Careers</a></span>
-                                        <span class="d-flex align-items-center"><i
-                                                class="ri-arrow-right-double-fill"></i><a
-                                                href="<?= base_url("terms-and-conditions") ?>">
-                                                Terms & conditions</a></span>
-                                    </div>
-                                    <div class="col-6 ">
-                                        <h5 class="mt-3">Education</h5>
-                                        <span class="d-flex align-items-center"><i
-                                                class="ri-arrow-right-double-fill"></i><a
-                                                href="<?= base_url("courses") ?>">Courses</a></span>
-                                        <span class="d-flex align-items-center"><i
-                                                class="ri-arrow-right-double-fill"></i><a
-                                                href="<?= base_url("one-to-one-session") ?>">
-                                                Sessions</a></span>
-                                        <span class="d-flex align-items-center"><i
-                                                class="ri-arrow-right-double-fill"></i><a
-                                                href="<?= base_url("blog") ?>">
-                                                Blogs</a></span>
+                        <div class="mobile_dropdown px-3" id="mobileDropdown" style="height: 0px;overflow: hidden  ;">
 
-                                        <span class="d-flex align-items-center"><i
-                                                class="ri-arrow-right-double-fill"></i><a
-                                                href="<?= base_url("train-a-trainer") ?>">Train a Trainer</a></span>
-                                    </div>
-                                    <div class="col-12 mb-3">
-                                        <h5 class="mt-3 ">Events</h5>
-                                        <!-- <span class="d-flex align-items-center"><i
+                            <div class="row">
+                                <div class="col-6 ">
+                                    <h5 class="mt-3">Company</h5>
+                                    <span class="d-flex align-items-center"><i class="ri-arrow-right-double-fill"></i>
+                                        <a href="<?= base_url("mentor") ?>">Mentors</a></span>
+                                    <span class="d-flex align-items-center"><i class="ri-arrow-right-double-fill"></i>
+                                        <a href="<?= base_url("gallery") ?>">Gallery</a></span>
+                                    <span class="d-flex align-items-center"><i class="ri-arrow-right-double-fill"></i><a
+                                            href="<?= base_url("contact") ?>"> Contact
+                                            Us</a></span>
+                                    <span class="d-flex align-items-center"><i class="ri-arrow-right-double-fill"></i><a
+                                            href="<?= base_url("careers") ?>">
+                                            Careers</a></span>
+                                    <span class="d-flex align-items-center"><i class="ri-arrow-right-double-fill"></i><a
+                                            href="<?= base_url("terms-and-conditions") ?>">
+                                            Terms & conditions</a></span>
+                                </div>
+                                <div class="col-6 ">
+                                    <h5 class="mt-3">Education</h5>
+                                    <span class="d-flex align-items-center"><i class="ri-arrow-right-double-fill"></i><a
+                                            href="<?= base_url("courses") ?>">Courses</a></span>
+                                    <span class="d-flex align-items-center"><i class="ri-arrow-right-double-fill"></i><a
+                                            href="<?= base_url("one-to-one-session") ?>">
+                                            Sessions</a></span>
+                                    <span class="d-flex align-items-center"><i class="ri-arrow-right-double-fill"></i><a
+                                            href="<?= base_url("blog") ?>">
+                                            Blogs</a></span>
+
+                                    <span class="d-flex align-items-center"><i class="ri-arrow-right-double-fill"></i><a
+                                            href="<?= base_url("train-a-trainer") ?>">Train a Trainer</a></span>
+                                </div>
+                                <div class="col-12 mb-3">
+                                    <h5 class="mt-3 ">Events</h5>
+                                    <!-- <span class="d-flex align-items-center"><i
                                                 class="ri-arrow-right-double-fill"></i><a href="<?= base_url("disclaimer") ?>">
                                                 Disclaimer</a></span>
                                         <span class="d-flex align-items-center"><i
                                                 class="ri-arrow-right-double-fill"></i><a href="<?= base_url("privacy-policy") ?>">
                                                 Privacy Policy</a></span> -->
 
-                                        <span class="d-flex align-items-center"><i
-                                                class="ri-arrow-right-double-fill"></i><a
-                                                href="<?= base_url("demo-session") ?>"> Demo
-                                                Session</a></span>
-                                        <span class="d-flex align-items-center"><i
-                                                class="ri-arrow-right-double-fill"></i><a
-                                                href="<?= base_url("ladies-special-batch") ?>"> Ladies Special Batch
-                                            </a></span>
-                                        <span class="d-flex align-items-center"><i
-                                                class="ri-arrow-right-double-fill"></i><a
-                                                href="<?= base_url("trade-over-coffee") ?>"> Trade Over Coffee
-                                            </a></span>
-                                        <span class="d-flex align-items-center"><i
-                                                class="ri-arrow-right-double-fill"></i><a
-                                                href="<?= base_url("collaboration") ?>"> Collaboration
-                                            </a></span>
-                                        <!-- <span class="d-flex align-items-center"><i
+                                    <span class="d-flex align-items-center"><i class="ri-arrow-right-double-fill"></i><a
+                                            href="<?= base_url("demo-session") ?>"> Demo
+                                            Session</a></span>
+                                    <span class="d-flex align-items-center"><i class="ri-arrow-right-double-fill"></i><a
+                                            href="<?= base_url("ladies-special-batch") ?>"> Ladies Special Batch
+                                        </a></span>
+                                    <span class="d-flex align-items-center"><i class="ri-arrow-right-double-fill"></i><a
+                                            href="<?= base_url("trade-over-coffee") ?>"> Trade Over Coffee
+                                        </a></span>
+                                    <span class="d-flex align-items-center"><i class="ri-arrow-right-double-fill"></i><a
+                                            href="<?= base_url("collaboration") ?>"> Collaboration
+                                        </a></span>
+                                    <!-- <span class="d-flex align-items-center"><i
                                                 class="ri-arrow-right-double-fill"></i><a href="<?= base_url("refund-policy") ?>">
                                                 Refund Policy</a></span> -->
-                                    </div>
                                 </div>
-                     
+                            </div>
+
 
                         </div>
                     </li>
